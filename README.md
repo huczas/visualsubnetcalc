@@ -143,7 +143,7 @@ npm run local-secure-start
 ## Running in a container
 
 The application is also available as a container from https://hub.docker.com/r/sharevb/visualsubnetcalc.
-The container is built automatically and pushed to dockerhub on pushes to the main branch and when when a new git tag is created.
+The container is built automatically and pushed to dockerhub on pushes to the main branch and when a new git tag is created.
 
 ### Available Image Tags
 
