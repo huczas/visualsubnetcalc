@@ -1926,7 +1926,7 @@ function getConfigUrl() {
     }
     renameKey(defaultExport, 'subnets', 's')
     //console.log(JSON.stringify(defaultExport))
-    return (vscParentUrl || window.location.origin + '/' + vscHtmlFileName) + '?c=' + urlVersion + LZString.compressToEncodedURIComponent(JSON.stringify(defaultExport))
+    return (vscParentUrl || new URL(vscHtmlFileName, window.location.href).href) + '?c=' + urlVersion + LZString.compressToEncodedURIComponent(JSON.stringify(defaultExport))
 }
 
 function updateBrowserHistory() {

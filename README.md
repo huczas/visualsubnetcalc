@@ -4,10 +4,10 @@ A fork that extends Visual Subnet Calculator from:
 - https://github.com/ckabalan/visualsubnetcalc/pull/40
 
 Available at:
-- https://sharevb.github.io/visualsubnetcalc/
+- https://hwit.pl/visualsubnetcalc/
 - https://hub.docker.com/r/sharevb/visualsubnetcalc 
 
-# Visual Subnet Calculator - [https://sharevb.github.io/visualsubnetcalc/](https://sharevb.github.io/visualsubnetcalc/)
+# Visual Subnet Calculator - [https://hwit.pl/visualsubnetcalc/](https://hwit.pl/visualsubnetcalc/)
 
 ![demo.gif](src%2Fdemo.gif)
 
@@ -108,7 +108,7 @@ Compile from source:
 
 ```shell
 # Clone the repository
-git clone https://github.com/sharevb/visualsubnetcalc
+git clone https://github.com/huczas/visualsubnetcalc
 # Change to the repository directory
 cd visualsubnetcalc
 # Use recommended NVM version
